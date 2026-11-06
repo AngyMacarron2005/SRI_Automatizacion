@@ -1,4 +1,3 @@
-# SRI_Automatizacion
 # 🤖 Robot Automatizador de Facturas SRI - Finetic C.L.
 
 Sistema de automatización en Python utilizando **Playwright** y **Tkinter** para la descarga masiva y ordenada de comprobantes electrónicos (XML y RIDE/PDF) desde el portal del SRI en Ecuador.
@@ -24,17 +23,25 @@ Ejecuta el siguiente comando en la terminal para instalar las librerías obligat
 ```bash
 pip install playwright
 
-Luego, instala los navegadores que utiliza Playwright por debajo:
+```
+Luego, instala los navegadores que utiliza Playwright por debajo ejecutando:
+
+```bash
 playwright install
+```
 (Nota para usuarios de Linux/Ubuntu): Si llegara a faltar el paquete gráfico de ventanas emergentes, instálalo con:
+
+```bash
 sudo apt install python3-tk
+```
 🚀 ¿Cómo Ejecutar el Programa?
 Abre tu terminal en la carpeta del proyecto.
 
 Ejecuta el script principal:
 
-Bash
+```bash
 python sri_bot.py
+```
 Sigue las instrucciones en las ventanas emergentes:
 
 Se abrirá Google Chrome automáticamente.
