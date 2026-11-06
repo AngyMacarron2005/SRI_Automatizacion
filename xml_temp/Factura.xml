@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0111202601099218232600120010010001555415617832412</numeroAutorizacion>
+<fechaAutorizacion>2026-11-01T04:36:39-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>Negocios y Telefonia Nedetel SA</razonSocial>
+    <nombreComercial>Negocios y Telefonia Nedetel S. A.</nombreComercial>
+    <ruc>0992182326001</ruc>
+    <claveAcceso>0111202601099218232600120010010001555415617832412</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000155541</secuencial>
+    <dirMatriz>Km 4 Via Perimetral y Francisco de Orellana</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>01/11/2026</fechaEmision>
+    <dirEstablecimiento>GUAYAS - GUAYAQUIL - TARQUI - VIA PERIMETRAL</dirEstablecimiento>
+    <contribuyenteEspecial>241</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+    <razonSocialComprador>FINETIC C.L.</razonSocialComprador>
+    <identificacionComprador>0190495140001</identificacionComprador>
+    <direccionComprador>VIA A PATAMARCA Y AVENIDA DEL TORIL</direccionComprador>
+    <totalSinImpuestos>329.25</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>4</codigoPorcentaje>
+        <descuentoAdicional>0.00</descuentoAdicional>
+        <baseImponible>329.25</baseImponible>
+        <tarifa>0.00</tarifa>
+        <valor>49.39</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>378.64</importeTotal>
+    <moneda>Dólar de EE.UU.</moneda>
+    <pagos>
+      <pago>
+        <formaPago>20</formaPago>
+        <total>378.64</total>
+        <plazo>45</plazo>
+        <unidadTiempo>Dias</unidadTiempo>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>P3006</codigoPrincipal>
+      <descripcion>TV</descripcion>
+      <cantidad>1.00</cantidad>
+      <precioUnitario>329.25</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>329.25</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>4</codigoPorcentaje>
+          <tarifa>15.00</tarifa>
+          <baseImponible>329.25</baseImponible>
+          <valor>49.39</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="EMAIL">finetic@hotmail.com</campoAdicional>
+    <campoAdicional nombre="phone">+593 96 254 9123</campoAdicional>
+    <campoAdicional nombre="Grandes contribuyentes">NAC-ADROGEC23-00000351-M</campoAdicional>
+    <campoAdicional nombre="RUC Proveedor">0992737964001</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-54775441-0a86-408b-990c-11d755fe911d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><ds:Reference Id="Reference-85c88319-c8f2-4c7a-bf04-bf5d1521113d" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>MpkmJ1mtWmVMSgXi/hTC7xnMCH4=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-54775441-0a86-408b-990c-11d755fe911d"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>ERUO2sK0uY4pGEiyjo7CGq13w40=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-54775441-0a86-408b-990c-11d755fe911d"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>m9Rnxq5fNqIZ8qIG9XeCkX625iY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-54775441-0a86-408b-990c-11d755fe911d">yu1vqJMelmlAxhNehsxmaBHwDyr8uGDP/6FcXDLP3xuZlNQ/m8V+TT1Ki+ukhoxpupydEKPc7j3iXoMjKiTy5c+RcXPVprpfHBY+SCMnLfONtRcQp8mf9A3X/sYw+ZkB66bXIe+eoqiI+SJIXcCGp5X57TqjxFgDhjvodw58rho6UdG1xRdHGDRbuU4frW5E49rH5PGSXhHsOynUXYcGf78MJiKn0VbSFguPYd5gklWvYG2VsiNv2ebmpTFu8u5jFR59jXjj8V9wF/7Og2uGpyM92mUl4OiC4UZkY/RLwCiDxCoJMkUApAEwhbn491BUhG8WOOEavCp2DE/xi9BIeA==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-54775441-0a86-408b-990c-11d755fe911d"><ds:X509Data><ds:X509Certificate>MIILPTCCCSWgAwIBAgIICKRz7jIGWuYwDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjYwNDIzMTEzMjEwWhcNMjgwNDIyMTEzMjEwWjCBpzElMCMGA1UEAwwcVkFORVNTQSBKQURJUkEgR1VBTEFOIENBUkNISTEgMB4GA1UEBRMXMTcyMzEwMTQxNC0yMzA0MjYwNjQxNTkxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6q7tMEuDHnK06n3Mk5D6pIUSHxl0Pbo1kpM5ODGF3FDiZ7Qm3gZkVyQCn3ne4znvwk6eQwGjaSmHzqyEIM+G9frrMy24u2cPR5QxRmuytqeB402bGedNQMPmxLxCp/fadv1jJ8o5UrxaiTFAiBcSsSYSN2EuRfHqOQ6mPaakm05GzwrbjoxkIfvU7rzqthWBtRi8VwEJKhZcxX2bl31/tDeqZ1QfH+pgCVwuA6ttE8Zr9kr4ocZPXvwmBLWK4wp4LcKaWfNgWV6qp6NrIbCNeMNiz7c1SYkTCOIGItbCOMLwq2QIP7skCmSWRoUOuWEDsnnFxV6VWGzO4J6z78+mNwIDAQABo4IGdzCCBnMwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42uYt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3AwHgYDVR0RBBcwFYETdmd1YWxhbmNAdWZpbmV0LmNvbTCCARIGA1UdIASCAQkwggEFMGAGCisGAQQBgqZyAgowUjBQBggrBgEFBQcCAjBEHkIAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAZABlACAATQBpAGUAbQBiAHIAbwAgAGQAZQAgAEUAbQBwAHIAZQBzAGEwgaAGCisGAQQBgqZyAgQwgZEwgY4GCCsGAQUFBwIBFoGBaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1BvbGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBNaWVtYnJvIGRlIEVtcHJlc2EucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHeoDqgOIY2aHR0cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwxL2NybGZpbGUuY3JsooGfpIGcMIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4hjZodHRwOi8vY3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmwwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU0SK1KWlEbrdZMo4ABKQjG3m2YBAwKwYDVR0QBCQwIoAPMjAyNjA0MjMxMTMyMTBagQ8yMDI4MDQyMjExMzIxMFowCwYDVR0PBAQDAgXgMCEGCisGAQQBgqZyAwUEEwwRQ09OVEFET1JBIEdFTkVSQUwwGgYKKwYBBAGCpnIDAQQMDAoxNzIzMTAxNDE0MG8GCisGAQQBgqZyAwkEYQxfUVVJVE8gRElTVFJJVE8gTUVUUk9QT0xJVEFOTyBDQUJFQ0VSQSBDQU5UT05BTCBDQVBJVEFMIFBST1ZJTkNJQUwgWSBERSBMQSBSRVBVQkxJQ0EgREVMIEVDVUFET1IwEQYKKwYBBAGCpnIDIgQDDAEuMDEGCisGAQQBgqZyAwcEIwwhQVYgUkVQVUJMSUNBIERFTCBTQUxWQURPUiBZIE1PU0NVMB4GCisGAQQBgqZyAwIEEAwOVkFORVNTQSBKQURJUkEwHwYKKwYBBAGCpnIDIAQRDA8wMDIwMDEwMDExOTk4OTMwEwYKKwYBBAGCpnIDIQQFDANQRlgwFwYKKwYBBAGCpnIDDAQJDAdFQ1VBRE9SMBYGCisGAQQBgqZyAwMECAwGR1VBTEFOMBEGCisGAQQBgqZyAx4EAwwBLjAwBgorBgEEAYKmcgMKBCIMIE5FR09DSU9TIFkgVEVMRUZPTklBIE5FREVURUwgUyBBMB0GCisGAQQBgqZyAwsEDwwNMDk5MjE4MjMyNjAwMTARBgorBgEEAYKmcgMdBAMMAS4wFgYKKwYBBAGCpnIDBAQIDAZDQVJDSEkwGgYKKwYBBAGCpnIDCAQMDAowOTkwNzA0ODM2MA0GCSqGSIb3DQEBCwUAA4ICAQBedGWiWx6wJ+IgOLu3b3gSK44MzBIZnXmkBMcDggLKzzJSfK6VytyV7j3z02CRYGei5qvBMxkAcF5j26q4cq9CNvyAmHq6Qmg9Tjj1YE82nGbVQoyc3TYpidYiqX++/ytFHb9R5tfT/jV3beDlTVax3Uw64MMqbTNuNVZ754yZayb9gPBxDC2pTePxJSNLUVPfQ3vJzFeZgS0NOm/byR6IlTS+C42zzJWrxexSTQ7vEHK1plb+og8pkR5wHBSqF87wfsS2aeX/+HbbAxigKxFKKnVxFiGtziEQjSbKYH7WTHGCqFF8uuggVIEr3s3pAEEmKhsww+rjXk7GWMpLVRxbSv7upa4O0e7eEIOXtPtR73tv+72jUAH3k1tPuQT1GAUmM/EZ9U8Fzpqg/3yUNqkNXNWt0DU+OTUtlcIaqLNmIaeEPXHlAEXnDaTFBjcz+CiRl/DDpgV2HeQITOAjT8YRw4qpeogZxyQhVHe/1q5vzlSG639WkAZSr8Gw1vjjMNAdCHm6rPocWxCxXO1EZsd7PZfMgUvD+/9a9/saKldwIwowDIMR9DpNEUK+3VnrmCOraplfijt+ZqZutUNEmVokbk5MgbhTIR3eTnGhg79jvIFLpdQ0pgj3F8W1AjBawSLQpH5oArEqKzWshL+npBB2Fx+3TwyntvvTwOZHXDO9UA==</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>6q7tMEuDHnK06n3Mk5D6pIUSHxl0Pbo1kpM5ODGF3FDiZ7Qm3gZkVyQCn3ne4znvwk6eQwGjaSmHzqyEIM+G9frrMy24u2cPR5QxRmuytqeB402bGedNQMPmxLxCp/fadv1jJ8o5UrxaiTFAiBcSsSYSN2EuRfHqOQ6mPaakm05GzwrbjoxkIfvU7rzqthWBtRi8VwEJKhZcxX2bl31/tDeqZ1QfH+pgCVwuA6ttE8Zr9kr4ocZPXvwmBLWK4wp4LcKaWfNgWV6qp6NrIbCNeMNiz7c1SYkTCOIGItbCOMLwq2QIP7skCmSWRoUOuWEDsnnFxV6VWGzO4J6z78+mNw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-09fd0f5b-aa28-47e2-8dc2-641011ba7cdf"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-74183f3b-c489-4741-be19-079b62b14975" Target="#Signature-54775441-0a86-408b-990c-11d755fe911d"><xades:SignedProperties Id="SignedProperties-Signature-54775441-0a86-408b-990c-11d755fe911d"><xades:SignedSignatureProperties><xades:SigningTime>2026-11-01T04:36:38-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>9DiQbXGMzx8wSb9hvcrBYclgYw0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA, OU=ENTIDAD DE CERTIFICACION DE INFORMACION, O=SECURITY DATA S.A. 2, C=EC</ds:X509IssuerName><ds:X509SerialNumber>622750115362659046</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>http://www.w3.org/2000/09/xmldsig#enveloped-signature</xades:Identifier><xades:Description /></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-85c88319-c8f2-4c7a-bf04-bf5d1521113d"><xades:Description>GuruSoft S.A Tel.045109312</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

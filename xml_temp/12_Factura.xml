@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0511202601019011579800120040110024982870000253419</numeroAutorizacion>
+<fechaAutorizacion>2026-11-06T00:57:00-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>COOPERATIVA DE AHORRO Y CREDITO JUVENTUD ECUATORIANA PROGRESISTA LTDA.</razonSocial>
+        <ruc>0190115798001</ruc>
+        <claveAcceso>0511202601019011579800120040110024982870000253419</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>004</estab>
+        <ptoEmi>011</ptoEmi>
+        <secuencial>002498287</secuencial>
+        <dirMatriz>KM SEIS AV. ORDOÑEZ LASSO S/N Y VIA CUENCA NARANJAL</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>05/11/2026</fechaEmision>
+        <dirEstablecimiento>CAMINO A PATAMARCA  S-N</dirEstablecimiento>
+        <contribuyenteEspecial>849</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>FINETIC C.L.</razonSocialComprador>
+        <identificacionComprador>0190495140001</identificacionComprador>
+        <direccionComprador>CAMINO A PATAMARCA -</direccionComprador>
+        <totalSinImpuestos>0.36</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>0.36</baseImponible>
+                <tarifa>15</tarifa>
+                <valor>0.05</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>0.41</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>0.41</total>
+                <plazo>0</plazo>
+                <unidadTiempo>dias</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>735</codigoPrincipal>
+            <descripcion>NOTA DE DEBITO COMISION TRANSFERENCIAS BANCARIAS N</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>0.36</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>0.36</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>0.36</baseImponible>
+                    <valor>0.05</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Gran Contribuyente">Resolución: NAC-GCFOIOC21-965-E</campoAdicional>
+    </infoAdicional>
+<ds:Signature Id="Signature702146" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#">
+<ds:SignedInfo Id="Signature-SignedInfo397639">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID600105" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature702146-SignedProperties782765">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>iMgu4nPMFXuAzQqcYsfkg+RuUlI=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1726080">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>/98U9OO8ypX6ns+ih/4tfkVWF7E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-695726" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>ZVmExoQjE9o8dsuRXL0AUX/h5S4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue347963">
+qSZHLawwUdX+3uZrgZynhLRD8BUtSOi8jiQaqdV7jqyWaUFaNBDRjoq0pmtucTnd82O1/qU24Dh7
+ZtchJTOYyTVoUg6Rh2Xjo/Ov8sGI71JtmYr34CcQbY5lX5WJ8/CcsY8gMmaBZn7JqbHAnSCQK0Ye
+UrqG4t7DxRYY8hklFkFoRFnWHLhgUupGovki9N0y5pqZTPA43h7ATfLRfIwBrYiu1O3JL25owIZU
+mIcE80JQozovETublZOvXljTNYhhixqnwFlTlL+fofUVK1JMp9PdsMA3lqfVmHnRlSphTTtqwZ1l
+QWJrTbhXVFHT0rEzNTo48Li00oJ11UM7fBKq/A==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1726080">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIKTDCCCDSgAwIBAgIEZed7cTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTI1MTIwNTE1MDQyM1oXDTI3MTIwNTE1MzQy
+MlowgboxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE+MBEGA1UEBRMKMDAwMDI1NjIxODApBgNVBAMTIk1PTklDQSBFTElaQUJF
+VEggQ0FNUE9WRVJERSBSSVZFUkEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAyjyl
+L7c9zYVyXZyftOJe2Xk7O14Je43jx0swhv9QVaIvK7bWM/4Djs4TzTYf6FVOs6J6oSSbLqFB0NUh
+hhQRzRbL7rTxFBC5kFvjW45GfpTip9wZGlyxeVO0PZMfIi9QqC0hUzDV9vBU42Vhk94FfCvi7saC
+KwuMmnwsVZWnsTPgAbiuKGPAd6CUfDO0b0Zk++Z4y6rN5ifVF4QZmBF0hC0mcaNBHBhCPu74m+iP
+wN2+MaWAZGVs73rP1yj7F/ee60teey7m0QWVKxUS3QR463uvYHOBabgro/vCwVy1GAkMmZ55snFk
+V078/Iwd+wwYVDnWtL6I7l6aODbQUk0dAgMBAAGjggVvMIIFazALBgNVHQ8EBAMCBsAwZwYDVR0g
+BGAwXjBcBgsrBgEEAYKoOwICATBNMEsGCCsGAQUFBwIBFj9odHRwOi8vd3d3LmVjaS5iY2UuZWMv
+cG9saXRpY2EtY2VydGlmaWNhZG8vcGVyc29uYS1qdXJpZGljYS5wZGYwgZEGCCsGAQUFBwEBBIGE
+MIGBMD4GCCsGAQUFBzABhjJodHRwOi8vb2NzcC5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9z
+dGF0dXMvb2NzcDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AxLmVjaS5iY2UuZWMvZWpiY2EvcHVi
+bGljd2ViL3N0YXR1cy9vY3NwMFYGCisGAQQBgqg7AwoESBNGQ09PUEVSQVRJVkEgREUgQUhPUlJP
+IFkgQ1JFRElUTyBKVVZFTlRVRCBFQ1VBVE9SSUFOQSBQUk9HUkVTSVNUQSBMVERBLjAdBgorBgEE
+AYKoOwMLBA8TDTAxOTAxMTU3OTgwMDEwGgYKKwYBBAGCqDsDAQQMEwowMTA0NDczNDI2MCAGCisG
+AQQBgqg7AwIEEhMQTU9OSUNBIEVMSVpBQkVUSDAaBgorBgEEAYKoOwMDBAwTCkNBTVBPVkVSREUw
+FgYKKwYBBAGCqDsDBAQIEwZSSVZFUkEwMwYKKwYBBAGCqDsDBQQlEyNESVJFQ1RPUiAgQURNSU5J
+U1RSQVRJVk8gRklOQU5DSUVSTzAzBgorBgEEAYKoOwMHBCUTI0NBTExFIERFTCBSRVRPUk5PIFkg
+R09OWkFMTyBQSVpBUlJPMBkGCisGAQQBgqg7AwgECxMJMDc0MTM1MDAwMBYGCisGAQQBgqg7AwkE
+CBMGQ1VFTkNBMBcGCisGAQQBgqg7AwwECRMHRUNVQURPUjAgBgorBgEEAYKoOwMzBBITEFNPRlRX
+QVJFLUFSQ0hJVk8wJQYDVR0RBB4wHIEabWNhbXBvdmVyZGVAY29vcGplcC5maW4uZWMwggHhBgNV
+HR8EggHYMIIB1DCCAdCgggHMoIIByIaB1mxkYXA6Ly9iY2VxbGRhcHN1YnAxLmJjZS5lYy9jbj1D
+UkwyMzA2LGNuPUFDJTIwQkFOQ08lMjBDRU5UUkFMJTIwREVMJTIwRUNVQURPUixsPVFVSVRPLG91
+PUVOVElEQUQlMjBERSUyMENFUlRJRklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLUVDSUJDRSxv
+PUJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsYz1FQz9jZXJ0aWZpY2F0ZVJldm9jYXRp
+b25MaXN0P2Jhc2WGNGh0dHA6Ly93d3cuZWNpLmJjZS5lYy9DUkwvZWNpX2JjZV9lY19jcmxmaWxl
+Y29tYi5jcmykgbYwgbMxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBF
+Q1VBRE9SMTcwNQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04t
+RUNJQkNFMQ4wDAYDVQQHEwVRVUlUTzElMCMGA1UEAxMcQUMgQkFOQ08gQ0VOVFJBTCBERUwgRUNV
+QURPUjEQMA4GA1UEAxMHQ1JMMjMwNjArBgNVHRAEJDAigA8yMDI1MTIwNTE1MDQyM1qBDzIwMjcx
+MjA1MTUzNDIyWjAfBgNVHSMEGDAWgBRIot8jHx34LFF6jAPNSTKlCcGUqzAdBgNVHQ4EFgQUqf2v
+oXtXQ6ggvBGP60RSvB+vr6gwCQYDVR0TBAIwADAaBgkqhkiG9n0HQQAEDTALGwVWMTAuMAMCBDAw
+DQYJKoZIhvcNAQELBQADggIBAEHouXq2m3eirp1pq4sPIv+vVQU4U0eCga83uUKbuj0spPPzKH+3
+yDQtleoCRHI3/TqRmFEg5/Y0w2qp4GGbMSqtW/MOzmXZzxUBWJHkbQfBzG3rDu4WawcmWo6rxHUZ
+lDvGps9haCulcdQKSVgejXTH1nnFJ3EG3xLfR2ewCA9XAm8hjddTcpmYe8wyunQh4pIuTiLB3Qgt
+JsmX8rHetbJe8ZtMptzkofdv9pw7pWiH2VgA6/HZNsI7g0+IFxEnnRF8cnm0h0iInklY0istgBy4
+7sfBbjVJkbuOX1GMAQVtsjQ4FCidGQIfUwauvsjERSIJTwxcPVLlr83IoJpVWCiPpaF6ViUGXu/5
+/jx8Bwc/ujTN8XQbQl941jMZg7n2RyC1ArKeDCGFPxhe3Wkuclc7o6e9jr8Kpqm7KyVma7F7zl2W
+bgp9rnvPBz98yFCVjAkzoh2M+WKOgciM3GQ6fV509593sariK104v7U0PDtZFCiAgldhqEVDmy1k
+HXhbCvd8T0dFhHvUrTUxHVMpYE4+npw2Qn3ul8j0plEeiAvFn1U8xyueirA0xyQ+tkoQ+yrd4hr2
+oNZSl1gdHHksMJr7Sk8/CRJ8IDzYZ1ikeMkO3zi4PwwVdxjFWiSuHIrDRIe5vgolWgR4U/C2lFTV
+uRttNqMlQo906bmofIQOhtKQ
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wMo8pS+3Pc2Fcl2cn7TiXtl5OzteCXuN48dLMIb/UFWiLyu21jP+A47OE802H+hVTrOieqEkmy6h
+QdDVIYYUEc0Wy+608RQQuZBb41uORn6U4qfcGRpcsXlTtD2THyIvUKgtIVMw1fbwVONlYZPeBXwr
+4u7GgisLjJp8LFWVp7Ez4AG4rihjwHeglHwztG9GZPvmeMuqzeYn1ReEGZgRdIQtJnGjQRwYQj7u
++Jvoj8DdvjGlgGRlbO96z9co+xf3nutLXnsu5tEFlSsVEt0EeOt7r2BzgWm4K6P7wsFctRgJDJme
+ebJxZFdO/PyMHfsMGFQ51rS+iO5emjg20FJNHQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature702146-Object675512"><etsi:QualifyingProperties Target="#Signature702146"><etsi:SignedProperties Id="Signature702146-SignedProperties782765"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-11-06T00:57:00-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>vkyJrKmrT2LKqi1upvHjHSxRUg0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1709669233</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-695726"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

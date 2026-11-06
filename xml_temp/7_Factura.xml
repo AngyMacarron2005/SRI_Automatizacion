@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0111202601179129015100120011000026203267846333311</numeroAutorizacion>
+<fechaAutorizacion>2026-11-01T13:47:27-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?><factura xmlns:ds="http://www.w3.org/2000/09/xmldsig#" id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PUNTONET S.A</razonSocial>
+        <nombreComercial>1791290151001</nombreComercial>
+        <ruc>1791290151001</ruc>
+        <claveAcceso>0111202601179129015100120011000026203267846333311</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>100</ptoEmi>
+        <secuencial>002620326</secuencial>
+        <dirMatriz>Quito, Amazonas 4545 y Pereira Edif. Centro Financiero, 4to piso, Ofi. 401</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>01/11/2026</fechaEmision>
+        <dirEstablecimiento>AV. AMAZONAS 4545 PEREIRA CENTRO FINANCIERO OFICINA 401</dirEstablecimiento>
+        <contribuyenteEspecial>636</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>FINETIC C.L. FINETIC C.L.</razonSocialComprador>
+        <identificacionComprador>0190495140001</identificacionComprador>
+        <totalSinImpuestos>19.99</totalSinImpuestos>
+        <totalDescuento>3.01</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>4</codigoPorcentaje>
+                <baseImponible>19.99</baseImponible>
+                <valor>3</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0.00</propina>
+        <importeTotal>22.99</importeTotal>
+        <moneda>USD</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>22.99</total>
+                <plazo>5</plazo>
+                <unidadTiempo>días</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>2061847</codigoPrincipal>
+            <codigoAuxiliar>NPC2061847</codigoAuxiliar>
+            <descripcion>Servicios Adicionales Club Celerity</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1</precioUnitario>
+            <descuento>1</descuento>
+            <precioTotalSinImpuesto>0</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>0</baseImponible>
+                    <valor>0</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>2061847</codigoPrincipal>
+            <codigoAuxiliar>NPC2061847</codigoAuxiliar>
+            <descripcion>Celerity Fast - 350 Mbps</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>22</precioUnitario>
+            <descuento>2.01</descuento>
+            <precioTotalSinImpuesto>19.99</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>4</codigoPorcentaje>
+                    <tarifa>15</tarifa>
+                    <baseImponible>19.99</baseImponible>
+                    <valor>3</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="ciudad-|-Direccion">CUENCA-|-Hermano Miguel CAMINO A PATAMARCA SN AV DEL TORIL</campoAdicional>
+        <campoAdicional nombre="Telefono">0987497462</campoAdicional>
+        <campoAdicional nombre="FechaCorte-|-Peridodo de consumo">01/12/2026-|-01/11/2026 - 01/12/2026</campoAdicional>
+        <campoAdicional nombre="FechaPago">06/11/2026</campoAdicional>
+        <campoAdicional nombre="mensajeCobranzas|granContribuyente">Ponemos a su disposicion para Soporte Tecnico y Atencion a Clientes residenciales la unica linea directa de CONTACTO 1-700 PUNTONET| Grandes Contribuyentes Resolución: NAC-GCFOIOC21-00001214-E</campoAdicional>
+        <campoAdicional nombre="email">finetic@livingnet.ec</campoAdicional>
+        <campoAdicional nombre="tipoContrato">Cuenta Personal</campoAdicional>
+        <campoAdicional nombre="Codigo">CA014090867/NPC2061847</campoAdicional>
+        <campoAdicional nombre="valorServicio-|-clienteDesde">23-|-18/12/2024</campoAdicional>
+        <campoAdicional nombre="Observacion">B1-3084866</campoAdicional>
+        <campoAdicional nombre="puntoAcumulados">null</campoAdicional>
+        <campoAdicional nombre="fechaCaducidad">null</campoAdicional>
+        <campoAdicional nombre="RUC Proveedor">1793208475001</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1475328701"><ds:SignedInfo Id="SignedInfoDoc"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference Id="SignedProperties92" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>fYE/5xzcNHc4lFFbWtot5OCwqoU=</ds:DigestValue></ds:Reference><ds:Reference Id="Cert613" URI="#Certificate"><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>qvUtPsGT9erhV0djcR9OB8Y66+E=</ds:DigestValue></ds:Reference><ds:Reference Id="Reference360" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>faGJWM9eUt8Neiv3lpSicImHJd0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Tm+wIjXK5gyPrRSJhDqz4xIxhu9VDktaxzpXwh1aJMfuGPfSgMKDpm4GqjBYmhj2Ac7w6VN7dXqoojAGw99MipJ6tOGZfIOOl2rHCzfV7Uuyh/yue1mhZnVFxLPdwugxS6HCLGG675pC/39bl8pbAYy/m3HU5z+24SiqJLXKMqenuiJMSI4Q5uGnvwqfyHIkeSzMhRJ1JPCoq/s+IlcAeS98Q+T2+IKuzi582jZri7wEyvtMapEL0yzMDC9eGKZSyG48BmvOuhfzQLwJYiz0myoZP8PFLefQi+6WRDAS1u6yC+xHSfQRtYAvFPRYHfyHCxNAt8SEPpxyjVAfszttmA==</ds:SignatureValue><ds:KeyInfo Id="Certificate"><ds:X509Data><ds:X509Certificate>MIILGzCCCQOgAwIBAgIIZstpZsbZZMowDQYJKoZIhvcNAQELBQAwgZkxCzAJBgNVBAYTAkVDMR0wGwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEwHhcNMjUxMjE2MTk1NDQ2WhcNMjYxMjE2MTk1NDQ2WjCBpTEjMCEGA1UEAwwaQ0VDSUxJQSBQQU9MQSBEQVFVSSBKQU5FVEExIDAeBgNVBAUTFzA2MDQzMzIwMDctMTYxMjI1MTUwNDM5MTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKiEQ0LTOUm2RwOAk4MkXcs7gJqk/aETo6KfSNb2Rw78LnWokZXULQnhJqpufRsGdGNrSAUp+liNveBmnOPUF9qhPqOfmVrYV1qVj+WC61Uc8UAwoFjPUINkrD+AcrXapD8Ur+ZcPP0dAEZB4mIJI+ejTBQWU8tIoK7Y//0UJfGVIuYVKq8/X62TOvY1weny/fOX7/n9woUQqUtLKLiRWWxvB7hmttI7R/9uoOFnY6GfNzqM7HfQ62ucSxqWw5g710VTRTv8ecijXsqAbXHzyir84BPeMS8MlxfL5nLaGKI8dzLNRHRIEXFMHMbjgLQNwTdyx1SkEpjYtixhn8iijDMCAwEAAaOCBlcwggZTMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCQGA1UdEQQdMBuBGWNlY2lsaWEuZGFxdWlAcHVudG9uZXQuZWMwggESBgNVHSAEggEJMIIBBTBgBgorBgEEAYKmcgIKMFIwUAYIKwYBBQUHAgIwRB5CAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAGQAZQAgAE0AaQBlAG0AYgByAG8AIABkAGUAIABFAG0AcAByAGUAcwBhMIGgBgorBgEEAYKmcgIEMIGRMIGOBggrBgEFBQcCARaBgWh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2VydGlmaWNhZG8gTWllbWJybyBkZSBFbXByZXNhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwggIPBgNVHR8EggIGMIICAjCB3qA6oDiGNmh0dHA6Ly9jcmwxLnNlY3VyaXR5ZGF0YS5uZXQuZWMvc3ViY2EyY3JsMS9jcmxmaWxlLmNybKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzA8oDqgOIY2aHR0cDovL2NybDIuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwyL2NybGZpbGUuY3JsMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZpc3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFKO0NA1CR5vtjoxkDR+nna3fp6CNMCsGA1UdEAQkMCKADzIwMjUxMjE2MTk1NDQ2WoEPMjAyNjEyMTYxOTU0NDZaMAsGA1UdDwQEAwIF4DAYBgorBgEEAYKmcgMFBAoMCENPTlRBRE9SMBoGCisGAQQBgqZyAwEEDAwKMDYwNDMzMjAwNzBvBgorBgEEAYKmcgMJBGEMX1FVSVRPIERJU1RSSVRPIE1FVFJPUE9MSVRBTk8gQ0FCRUNFUkEgQ0FOVE9OQUwgQ0FQSVRBTCBQUk9WSU5DSUFMIFkgREUgTEEgUkVQVUJMSUNBIERFTCBFQ1VBRE9SMBEGCisGAQQBgqZyAyIEAwwBLjAqBgorBgEEAYKmcgMHBBwMGkFWIEFNQVpPTkFTIDQ1NDUgWSBQRVJFSVJBMB0GCisGAQQBgqZyAwIEDwwNQ0VDSUxJQSBQQU9MQTAfBgorBgEEAYKmcgMgBBEMDzAwMjAwMTAwMTExODk5NjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1IwFQYKKwYBBAGCpnIDAwQHDAVEQVFVSTARBgorBgEEAYKmcgMeBAMMAS4wHAYKKwYBBAGCpnIDCgQODAxQVU5UT05FVCBTIEEwHQYKKwYBBAGCpnIDCwQPDA0xNzkxMjkwMTUxMDAxMBEGCisGAQQBgqZyAx0EAwwBLjAWBgorBgEEAYKmcgMEBAgMBkpBTkVUQTAaBgorBgEEAYKmcgMIBAwMCjA5OTM0MzYwNTcwDQYJKoZIhvcNAQELBQADggIBAHXzz6Qp4SarTSsf59DY5ICOVhKsKZdHLOjbBGJi1xMtu0afFO4tEya1gFoBgnWJg0lyGwunAs9c1EtQBa3ZjanMkRAclyt5hShmhLV4HJdHWqvcSdG5hnH78bPKfLgTOb1jrGxnGgJA4/ibsfJMj3WT5D1jCnFAMdIIt3nbG5CCgc9/DjTROIbN0k2ANwRor+cw3Mkb/TEbSqyO/UX6k6NH2ab0Oynbuxg4nKgS1Nv93z2GgJ1cr3IZ+AgwfhVQZSzch9hLnP2qQFgurCworEybFCSv5z4jopIbyCEssWNCTQO7fvRSsSTit5h+CbudZenq3xbzTYp7RC5EZxcRmpV+4rtSq/OQOVy3NbLY6UWlFQomkkvEqNeAiKGiysEsuuHQGtKETg4dw1RmIPIESnU3iXj1PRYzKa4p7bwHeslFP6uDtzfUvyDZA5Qk+BjFkMhoKjunJICZLIrNmkJKk7FOnYIceLZC0pm1jLVQrKRR/fdHRxTe7LWxN/cv4OSveOmr5PPCLh6cRVnEr3F/X1vEfttNhWnnsSopNun7hN5oS9q3nP0KW4DYwumm4t8Rk2HAAKWZrVSdbA9Ogrjs2wGI4Jj2eA9GqD89eniumLW0WwXzRy5XJPQOhuFEf6yqPeEN8RNKDwIqni+hC/R5n4U13PxG+IZQl3+tMAtfI5Vr</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>qIRDQtM5SbZHA4CTgyRdyzuAmqT9oROjop9I1vZHDvwudaiRldQtCeEmqm59GwZ0Y2tIBSn6WI294Gac49QX2qE+o5+ZWthXWpWP5YLrVRzxQDCgWM9Qg2SsP4BytdqkPxSv5lw8/R0ARkHiYgkj56NMFBZTy0igrtj//RQl8ZUi5hUqrz9frZM69jXB6fL985fv+f3ChRCpS0souJFZbG8HuGa20jtH/26g4WdjoZ83Oozsd9Dra5xLGpbDmDvXRVNFO/x5yKNeyoBtcfPKKvzgE94xLwyXF8vmctoYojx3Ms1EdEgRcUwcxuOAtA3BN3LHVKQSmNi2LGGfyKKMMw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="Signature1475328701-Object"><etsi:QualifyingProperties Target="#Signature1475328701"><etsi:SignedProperties Id="SignedProperties"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-11-01T13:47:27.340-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>GSOzt7yGHnIfjD9gg6s21IERr8I=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName><ds:X509SerialNumber>7407129902284629194</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference360"><etsi:Description>Comprobante SRI by QuindeFee</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+
