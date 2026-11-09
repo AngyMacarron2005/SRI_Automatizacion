@@ -53,3 +53,40 @@ Una vez que veas la tabla con las facturas en pantalla, haz clic en OK en la ale
 Ingresa el nombre con el que deseas guardar el respaldo (ej. octubre).
 
 El robot descargará los XMLs (comprimiéndolos en un .zip dentro de facturas_descargadas/) y los PDFs en una carpeta de respaldo. Al finalizar, se abrirán las carpetas automáticamente y te preguntará si deseas realizar otra consulta.
+
+###  Comando para ejecutar navegador según el equipo:
+
+```bash
+print("\n-> Abriendo Google Chrome...")
+    
+    if platform.system() == "Windows":
+        user_dir = os.path.expanduser('~').replace('\\', '/')
+        
+        # Rutas habituales donde Windows instala Google Chrome
+        rutas_chrome = [
+            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+            r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+            os.path.expanduser(r"~\AppData\Local\Google\Chrome\Application\chrome.exe")
+        ]
+        
+        # Buscar la ruta que realmente exista en el sistema del cliente
+        chrome_path = next((ruta for ruta in rutas_chrome if os.path.exists(ruta)), "chrome")
+        
+        cmd = [
+            chrome_path,
+            "--remote-debugging-port=9222",
+            f"--user-data-dir={user_dir}/chrome_sri_profile",
+            url_login_sri
+        ]
+    else:
+        cmd = [
+            "google-chrome",
+            "--remote-debugging-port=9222",
+            f"--user-data-dir={os.path.expanduser('~')}/chrome_sri_profile",
+            "--ozone-platform=x11",
+            url_login_sri
+        ]
+    
+    subprocess.Popen(cmd)
+    time.sleep(3)
+```
