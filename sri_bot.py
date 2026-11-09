@@ -2,7 +2,6 @@ import os
 import time
 import zipfile
 import subprocess
-import platform
 from pathlib import Path
 import tkinter as tk
 from tkinter import simpledialog, messagebox
@@ -25,26 +24,14 @@ def automatizar_descargas():
     
     url_login_sri = "https://srienlinea.sri.gob.ec/"
 
-    print("\n-> Abriendo Google Chrome...")
-    
-    # ⚙️ CAMBIO AQUÍ: Detectamos el sistema operativo del cliente para abrir Chrome correctamente
-    if platform.system() == "Windows":
-        user_dir = os.path.expanduser('~').replace('\\', '/')
-        cmd = [
-            "chrome",
-            "--remote-debugging-port=9222",
-            f"--user-data-dir={user_dir}/chrome_sri_profile",
-            url_login_sri
-        ]
-    else:
-        # Si la PC es Linux (como tu laptop de prácticas)
-        cmd = [
-            "google-chrome",
-            "--remote-debugging-port=9222",
-            f"--user-data-dir={os.path.expanduser('~')}/chrome_sri_profile",
-            "--ozone-platform=x11",
-            url_login_sri
-        ]
+    print("\n-> Abriendo Brave...")
+    cmd = [
+        "brave-browser",
+        "--remote-debugging-port=9222",
+        f"--user-data-dir={os.path.expanduser('~')}/chrome_sri_profile",
+        "--ozone-platform=x11",
+        url_login_sri
+    ]
     
     subprocess.Popen(cmd)
     time.sleep(3)
