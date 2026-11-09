@@ -90,3 +90,29 @@ print("\n-> Abriendo Google Chrome...")
     subprocess.Popen(cmd)
     time.sleep(3)
 ```
+### Comando de clonación:
+
+```Bash
+git clone https://github.com/AngyMacarron2005/SRI_Automatizacion.git
+```
+
+Entra a la carpeta recién clonada:
+```Bash
+cd SRI_Automatizacion
+```
+Al final:
+```Bash
+git pull
+```
+### Configurar el entorno virtual en la carpeta clonada
+```Bash
+# 1. Crear el entorno virtual
+python -m venv venv
+
+# 2. Activar el entorno virtual
+.\venv\Scripts\activate
+
+# 3. Instalar Playwright y los navegadores
+pip install playwright
+playwright install
+```
