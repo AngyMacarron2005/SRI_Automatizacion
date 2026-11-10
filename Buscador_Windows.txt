@@ -118,8 +118,13 @@ def automatizar_descargas():
 
             print(f"-> Analizando filas visibles en pantalla para guardarlas en '{nombre_mes}'...")
             
+            try:
+                page.wait_for_load_state("load", timeout=15000)
+                page.wait_for_selector("table tbody tr", timeout=30000)
+            except Exception:
+                pass
+
             filas = page.locator("table tbody tr:visible").all()
-            print(f"-> Se detectaron {len(filas)} facturas visibles para descargar.")
 
             # 🛡️ VALIDACIÓN: Si no hay facturas en la tabla, avisa y vuelve a empezar el ciclo sin error
             if len(filas) == 0:

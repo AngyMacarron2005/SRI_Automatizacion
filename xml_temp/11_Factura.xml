@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0511202601019511821300120010800000469620004695511</numeroAutorizacion>
+<fechaAutorizacion>2026-11-05T12:15:30-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="2.1.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>DIST ELECTRO COMERCIAL MZ S.A.S</razonSocial><nombreComercial>COMERCIAL MZ</nombreComercial><ruc>0195118213001</ruc><claveAcceso>0511202601019511821300120010800000469620004695511</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>080</ptoEmi><secuencial>000046962</secuencial><dirMatriz>TOTORACOCHA /AVENIDA PASEO DE LOS CAÑARIS Y YANAHU</dirMatriz><agenteRetencion>1</agenteRetencion></infoTributaria><infoFactura><fechaEmision>05/11/2026</fechaEmision><obligadoContabilidad>SI</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>FINETIC C.L.</razonSocialComprador><identificacionComprador>0190495140001</identificacionComprador><totalSinImpuestos>20.27</totalSinImpuestos><totalDescuento>0.00</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><baseImponible>20.27</baseImponible><tarifa>15</tarifa><valor>3.04</valor></totalImpuesto></totalConImpuestos><propina>0.00</propina><importeTotal>23.31</importeTotal><moneda>DOLAR</moneda><pagos><pago><formaPago>20</formaPago><total>23.31</total><plazo>15</plazo><unidadTiempo>Días</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>MEAM036</codigoPrincipal><codigoAuxiliar>MEAM036</codigoAuxiliar><descripcion>AMARRA PLASTICA 53CM9.0 NEGRO VESTA</descripcion><cantidad>2.0000</cantidad><precioUnitario>10.13520</precioUnitario><descuento>0.0000</descuento><precioTotalSinImpuesto>20.27</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>4</codigoPorcentaje><tarifa>15</tarifa><baseImponible>20.27</baseImponible><valor>3.04</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Dirección">CAMINO PATAMARCA S/N Y AV. DEL TORIL</campoAdicional><campoAdicional nombre="Email Cliente">finetic@hotmail.com</campoAdicional><campoAdicional nombre="Teléfono">0991508119</campoAdicional><campoAdicional nombre="RUC Proveedor">0190375927001</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature387044">
+<ds:SignedInfo Id="Signature-SignedInfo343017">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID660303" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature387044-SignedProperties631723">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>lCnxwWuluJWbMipac9GVjjzHkN4=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1953103">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>eSm8jG9VgUts8pP6kA47byXbQSA=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-985260" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>QLbf0zhKJfinqvutBTzY/sGe6TM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue647285">
+b8IuE0AjbNhqS8p3fg3MeLXqikAJPVMcBZyaTkP1J9jVmr4iFh6S+1eTkqxy5wRzWlOs1KmcdZzR
+B2v79ww7e4HdUN0dEDjOJnkNTYZ93Z9FWaopkrOPWf1Eld4hEJOd5sTm1DZljJsYVtOzkstOqEI0
+hdlfYIFgZMb5xzpmfvcBAEixmemBAeJvQLElFaReyVQB6BZpHFM73+0YxIhKsrKutns9BqLRggoN
+6pX/SpJjRAXFeI8fb2I879BymdTsqAuYGBt0Nprv/4vY2h6I0HrZvoPg/Sy8ii1F5JjfLKivo4Lg
+Ru9dUZOR7H6ajY8KVIbCtFDt9dV8n646pmUhmA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1953103">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJ4zCCB8ugAwIBAgIIS3Gplmh6Ec4wDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAkVTMUQw
+QgYDVQQHDDtCYXJjZWxvbmEgKHNlZSBjdXJyZW50IGFkZHJlc3MgYXQgd3d3LnVhbmF0YWNhLmNv
+bS9hZGRyZXNzKTEWMBQGA1UECgwNVUFOQVRBQ0EgUy5BLjEVMBMGA1UECwwMVFNQLVVBTkFUQUNB
+MRowGAYDVQQDDBFVQU5BVEFDQSBDQTIgMjAxNjEYMBYGA1UEYQwPVkFURVMtQTY2NzIxNDk5MB4X
+DTI1MDMyNjE1MjUwMFoXDTI3MDMyNjE1MjUwMFowgecxCzAJBgNVBAYTAkVDMSkwJwYDVQQKDCBE
+SVNUIEVMRUNUUk8gQ09NRVJDSUFMIE1aIFMuQS5TLjEYMBYGA1UEDAwPR0VSRU5URSBHRU5FUkFM
+MRgwFgYDVQQEDA9NSVpRVUVSTyBaQVJBVEUxFzAVBgNVBCoMDkRJQU5BIEdBQlJJRUxBMRkwFwYD
+VQQFExBJRENFQy0wMTA1OTU5MzczMScwJQYDVQQDDB5ESUFOQSBHQUJSSUVMQSBNSVpRVUVSTyBa
+QVJBVEUxHDAaBgNVBGEME1ZBVEVDLTAxOTUxMTgyMTMwMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQCbsfUzOQJMw1wS+xWeHTX75ATr3Udy18ehYFKGW+0ZBlgjFGgkHKj98Qu8O66Y
+flX0dQ4i8gbpnxu5RzFMsTODGO+1aQMAJAQayqTyijEI/Gn43RQchyrwzt8u81xjILQtH9iKMhQn
+YeU5EZ+By3bH77dsoXUxaiVsVSeWsnTaBNkDqzGV+vrMOH95kHoi01LxuVYaoCuMjV/wfLZlOTCl
+SFBJcD3zYnQdNcmeVag0ENKenPOKrQvnHaZW8+PHWdj5Ne8EY97CKnwaDP87DgizmKgs/ECnQ6cC
++b28IPWYO8zzFaSEeTQP9lQNbt+lHp3xUyyMoICdN/ZrXkaIgMThAgMBAAGjggS+MIIEujAbBgsr
+BgEEAYLxNmYDAQQMDAowMTA1OTU5MzczMB4GCysGAQQBgvE2ZgMLBA8MDTAxOTUxMTgyMTMwMDEw
+gdcGCCsGAQUFBwEBBIHKMIHHMFUGCCsGAQUFBzAChklodHRwOi8vd3d3LnVhbmF0YWNhLmNvbS9w
+dWJsaWMvZG93bmxvYWQvdHNwX2NlcnRpZmljYXRlcy9zdWJvcmRpbmF0ZTEuY3J0MDYGCCsGAQUF
+BzABhipodHRwOi8vb2NzcDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvb2NzcC8wNgYIKwYBBQUH
+MAGGKmh0dHA6Ly9vY3NwMi51YW5hdGFjYS5jb20vcHVibGljL3BraS9vY3NwLzAdBgNVHQ4EFgQU
+Pep4GAi+FVWgmjoyvvDQJ3pTaX0wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBR9V+dgc84HRqni
+o2jw4RGydJJz/TCBjgYDVR0gBIGGMIGDMIGABgwrBgEEAYLxNmYCAwEwcDA3BggrBgEFBQcCARYr
+aHR0cHM6Ly93d3cudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvZHBjLWVjLzA1BggrBgEFBQcCAjAp
+DCdDRVJUSUZJQ0FETyBERSBSRVBSRVNFTlRBTlRFIEVOIEFSQ0hJVk8wgY8GA1UdHwSBhzCBhDBA
+oD6gPIY6aHR0cDovL2NybDEudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NBMnN1Ym9yZGlu
+YWRhLmNybDBAoD6gPIY6aHR0cDovL2NybDIudWFuYXRhY2EuY29tL3B1YmxpYy9wa2kvY3JsL0NB
+MnN1Ym9yZGluYWRhLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG
+AQUFBwMEMIIB/wYDVR0RBIIB9jCCAfKBJGVsZWN0cm9jb21lcmNpYWxtemdlcmVuY2lhQGdtYWls
+LmNvbaAbBgsrBgEEAYLxNmYDAaAMDAowMTA1OTU5MzczoB8GCysGAQQBgvE2ZgMCoBAMDkRJQU5B
+IEdBQlJJRUxBoBkGCysGAQQBgvE2ZgMDoAoMCE1JWlFVRVJPoBcGCysGAQQBgvE2ZgMEoAgMBlpB
+UkFURaAgBgsrBgEEAYLxNmYDBaARDA9HRVJFTlRFIEdFTkVSQUygVAYLKwYBBAGC8TZmAwegRQxD
+Q0FMTEU6IFBBU0VPIERFIExPUyBDQUFSSVMgSU5URVJTRUNDSU46IFlBTkFIVVJDTyBOTUVSTyBE
+RSBQSVNPOiBTTqAfBgsrBgEEAYLxNmYDCKAQDA4wMDU5Mzk5MzE5Nzg2MqAXBgsrBgEEAYLxNmYD
+CaAIDAZDVUVOQ0GgMQYLKwYBBAGC8TZmAwqgIgwgRElTVCBFTEVDVFJPIENPTUVSQ0lBTCBNWiBT
+LkEuUy6gHgYLKwYBBAGC8TZmAwugDwwNMDE5NTExODIxMzAwMaATBgsrBgEEAYLxNmYDDKAEDAJF
+Q6AkBgsrBgEEAYLxNmYDMqAVDBNSRVBSRVNFTlRBTlRFIExFR0FMoBgGCysGAQQBgvE2ZgMzoAkM
+B0FSQ0hJVk8wDQYJKoZIhvcNAQELBQADggIBABJ6RnWlCjNyd/jb8OITb1bYqmGRpYsI2PaGSljA
+dI+ZCF3sjljX3Rsioo8PyMsI0qZmMDkruZZKWVwjjaMx9BUaROSutSQAJQ1Yoq/vpoZX5Yl4VKWs
+B04vYWV7MC8nycKYT23HfaIV8hfxl2Nzrrf/tYfbAM2c9HBmy1c277SV/RhnZWJle6/gTnA+SNAw
+0OyhCenc6QOmvRO/LRg3gpLilyY/3am9Kc31OI+TNUczaNLhou4Kb8NGb+uRy8Mktk/gJi/IDYtr
+wDGf1gqO5o/6T8P0Szgk/tfOic4BA+59tyLYet4NpzSPJBuNDCI3ndeDRxJtb143XwPqUbJd8A8Q
+7x6Nscb8zqXkU2GFIP9GU8Z7taOuTxxDQSKo6oBcf6RDiocIXU86guUYmuJ6Z1d6KYqQVrPq9qe3
+G3euL/GYiSw7FKVEv68Coj5Voe0F7BCAEVzvQJRa6GA9RMNKsUp4PJNV1nOjTYYC02+xBwB1ng1H
++bty11F9I2E9inX+xW9YJeMpaHpZr5oRPdW6ZX+1tn2GlUQkvVNHA02s7QmioSIjXrcVjDe0JQHa
+er/IcXKIvcqLvAookfzDwEczxGQfsOGsizLR99bEc2yM/vURHoPzO8yLJhFpLjPttUbyU/I7cU/0
+hl95q8yBGA8f3xeSgkCGrWz0gYVL+Md6YSZ3
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+m7H1MzkCTMNcEvsVnh01++QE691HctfHoWBShlvtGQZYIxRoJByo/fELvDuumH5V9HUOIvIG6Z8b
+uUcxTLEzgxjvtWkDACQEGsqk8ooxCPxp+N0UHIcq8M7fLvNcYyC0LR/YijIUJ2HlORGfgct2x++3
+bKF1MWolbFUnlrJ02gTZA6sxlfr6zDh/eZB6ItNS8blWGqArjI1f8Hy2ZTkwpUhQSXA982J0HTXJ
+nlWoNBDSnpzziq0L5x2mVvPjx1nY+TXvBGPewip8Ggz/Ow4Is5ioLPxAp0OnAvm9vCD1mDvM8xWk
+hHk0D/ZUDW7fpR6d8VMsjKCAnTf2a15GiIDE4Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature387044-Object1026955"><etsi:QualifyingProperties Target="#Signature387044"><etsi:SignedProperties Id="Signature387044-SignedProperties631723"><etsi:SignedSignatureProperties><etsi:SigningTime>2026-11-05T12:15:30-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>edsSWIoPe/3Jf4Fofm7yGAuMpWQ=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>2.5.4.97=#0c0f56415445532d413636373231343939,CN=UANATACA CA2 2016,OU=TSP-UANATACA,O=UANATACA S.A.,L=Barcelona (see current address at www.uanataca.com/address),C=ES</ds:X509IssuerName><ds:X509SerialNumber>5436312688675918286</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-985260"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0411202601110514904900120010010000001811124612513</numeroAutorizacion>
+<fechaAutorizacion>2026-11-04T09:26:02-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>2</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>RAMON HERRERA MANUEL STALIN</razonSocial>
+        <ruc>1105149049001</ruc>
+        <claveAcceso>0411202601110514904900120010010000001811124612513</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000181</secuencial>
+        <dirMatriz>Barrio: CENTRAL Calle: 18 DE NOVIEMBRE Numero: SN Interseccion: COLON </dirMatriz>
+        <contribuyenteRimpe>CONTRIBUYENTE RÉGIMEN RIMPE</contribuyenteRimpe>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>04/11/2026</fechaEmision>
+        <dirEstablecimiento>Barrio: CENTRAL Calle: 18 DE NOVIEMBRE Numero: SN Interseccion: COLON </dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+        <razonSocialComprador>FINETIC C.L.</razonSocialComprador>
+        <identificacionComprador>0190495140001</identificacionComprador>
+        <totalSinImpuestos>375.00</totalSinImpuestos>
+        <totalDescuento>0.00</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>0</codigoPorcentaje>
+                <baseImponible>375.00</baseImponible>
+                <valor>0.00</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>375.00</importeTotal>
+        <moneda>DOLAR</moneda>
+        <pagos>
+            <pago>
+                <formaPago>20</formaPago>
+                <total>375.00</total>
+            </pago>
+        </pagos>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>004</codigoPrincipal>
+            <descripcion>CREACIÓN E INSERCIÓN DE ANUNCIOS EN PERIODICOS, REVISTAS, PROGRAMAS DE RADIO Y TELEVISIÓN, INTERNET Y OTROS MEDIOS DE DIFUSIÓN</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>375.00</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>375.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>0</codigoPorcentaje>
+                    <tarifa>0.0</tarifa>
+                    <baseImponible>375.00</baseImponible>
+                    <valor>0.00</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <infoAdicional>
+        <campoAdicional nombre="Email">finetic@hotmail.com</campoAdicional>
+    </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>awX0kvKSFyoZvsIGGTeBsb/u+HQJ049Tlu96XlwWvJc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Q9xuJ3pSRUgcc0PEehP5YxnDEB62gs8qpYoTPKQp8xw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d-sigvalue">W1eOr7pVF/Y4zx8lB6gsELet8U81YrvY3TP9jm5ERhi19Nfdh0PF+AMxHKMWIqECB1TuC0kb2wdbpvwv2uXl76PyMMnCw4IwosLlT1n05oN/rpe2JDCO+VAA14tjCBHNj4duiWPvyLPFU/uBLFjUQCG7IlURLgQlH8B7DvyRoSRLD6x+bqUGlp5ycua3UP88IynmkEKeZP18jvWJp2Qfn4HPRN6UnjeE7Akq8R+dVH8XkG2myH7J1kklotLHnvjZq6vup7jUH1xheCD2G7mmJeiWtMman24Rc8VnylCqEfTVnECXJum+bXPz01H5iTZLyFu/zQuvu/BniGA/PoUa/Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d"><xades:SignedProperties Id="xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-11-04T09:26:02.251-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>S3Qf6HGXyy9K7MYki1m6H1RMzUJ5n/B61KnjzmHYKog=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-1EF CORPNEWBEST,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=CORPNEWBEST CIA. LTDA.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>72528104676234869140854</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xmldsig-03d44eda-811e-464e-b69f-86bf3ddf037d-ref0"><xades:Description>FIRMA DIGITAL SRI</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+
