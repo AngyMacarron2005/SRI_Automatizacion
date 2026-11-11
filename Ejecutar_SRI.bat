@@ -3,8 +3,10 @@
 setlocal
 title Robot SRI - Finetic C.L.
 
-:: Entrar a la carpeta del programa
 cd /d "%~dp0"
+
+:: Si el EXE llama al BAT, solo preparar Chrome
+if /i "%~1"=="PREPARAR" goto PREPARAR_CHROME
 
 echo ==========================================
 echo       ROBOT SRI - FINETIC C.L.
@@ -27,18 +29,6 @@ if not exist "%CHROME%" (
 :: Perfil exclusivo del SRI
 set "PROFILE=%LOCALAPPDATA%\SRI_Chrome_Debug"
 
-:: Ruta del entorno virtual (una carpeta superior)
-set "PYTHON=%~dp0..\venv\Scripts\python.exe"
-set "ACTIVATE=%~dp0..\venv\Scripts\activate.bat"
-
-:: Comprobar Python
-if not exist "%PYTHON%" (
-    echo ERROR: No se encontro Python.
-    echo Ruta buscada: %PYTHON%
-    pause
-    exit /b 1
-)
-
 :: Comprobar Chrome
 echo [1/3] Comprobando Google Chrome...
 
@@ -57,6 +47,8 @@ if errorlevel 1 (
     echo [2/3] Chrome ya esta preparado.
 )
 
+:PREPARAR_CHROME
+
 :: Esperar a que Chrome este disponible
 echo.
 echo Esperando conexion con Chrome...
@@ -66,16 +58,26 @@ powershell -NoProfile -Command ^
 
 if errorlevel 1 (
     echo ERROR: Chrome no pudo iniciar correctamente.
-    pause
     exit /b 1
 )
 
-:: Ejecutar el programa
+:: Si fue llamado para preparar Chrome, regresar al EXE
+if /i "%~1"=="PREPARAR" exit /b 0
+
+:: Ejecutar el EXE
 echo.
 echo [3/3] Iniciando automatizacion...
 echo.
 
-"%PYTHON%" sri_bot.py
+set "EXE=%~dp0dist\Robot_SRI\Robot_SRI.exe"
+
+if not exist "%EXE%" (
+    echo ERROR: No se encontro Robot_SRI.exe.
+    pause
+    exit /b 1
+)
+
+"%EXE%" --ejecutar
 
 echo.
 echo ==========================================
