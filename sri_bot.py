@@ -1,6 +1,7 @@
 import os
 import time
 import zipfile
+import platform
 import subprocess
 from pathlib import Path
 import tkinter as tk
@@ -8,70 +9,89 @@ from tkinter import simpledialog, messagebox
 from playwright.sync_api import sync_playwright
 
 def automatizar_descargas():
-    # Inicializamos la ventanita oculta de tkinter para los popups
     root = tk.Tk()
-    root.withdraw() # Oculta la ventana principal vacía
+    root.withdraw()
     
-    # 1. Alerta visual de instrucciones iniciales
     messagebox.showinfo(
         "Robot SRI - Finetic C.L.", 
-        "¡Hola! El navegador se abrirá a continuación.\n\n"
-        "1. Inicia sesión en el portal.\n"
-        "2. Navega a 'Comprobantes electrónicos recibidos'.\n"
-        "3. Selecciona tus fechas y haz clic en CONSULTAR.\n\n"
-        "Haz clic en OK una vez que estés viendo la tabla con las facturas listas."
+        "¡Hola! Vamos a conectar con Google Chrome.\n\n"
+        "1. Abre Chrome utilizando el acceso configurado para el SRI.\n"
+        "2. Inicia sesión y resuelve el reCAPTCHA.\n"
+        "3. Navega a 'Comprobantes electrónicos recibidos'.\n"
+        "4. Selecciona tus fechas y haz clic en CONSULTAR.\n\n"
+        "Cuando las facturas aparezcan en pantalla, haz clic en OK."
     )
     
     url_login_sri = "https://srienlinea.sri.gob.ec/"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    print("\n-> Abriendo Brave...")
-    cmd = [
-        "brave-browser",
-        "--remote-debugging-port=9222",
-        f"--user-data-dir={os.path.expanduser('~')}/chrome_sri_profile",
-        "--ozone-platform=x11",
-        url_login_sri
-    ]
-    
-    subprocess.Popen(cmd)
-    time.sleep(3)
-    
+    print("\n-> Conectando con Google Chrome mediante CDP...")
+
     with sync_playwright() as p:
         try:
-            browser = p.chromium.connect_over_cdp("http://localhost:9222")
-            default_context = browser.contexts[0]
-            
-            pages = default_context.pages
-            page = pages[0] if pages else default_context.new_page()
-            
-            for p_extra in pages[1:]:
-                try:
-                    p_extra.close()
-                except:
-                    pass
-            
-            page.goto(url_login_sri)
-            
+            # Conectarse al Chrome que ya está abierto
+            browser = p.chromium.connect_over_cdp(
+                "http://127.0.0.1:9222",
+                timeout=10000
+            )
+
+            # Obtener el contexto principal de Chrome
+            if not browser.contexts:
+                raise Exception("No se encontró un contexto de navegador.")
+
+            browser_context = browser.contexts[0]
+
+            # Buscar una pestaña que ya tenga abierto el SRI
+            pages = browser_context.pages
+
+            page = next(
+                (
+                    pestaña for pestaña in pages
+                    if "srienlinea.sri.gob.ec" in pestaña.url
+                ),
+                None
+            )
+
+            # Si no existe una pestaña del SRI, crear una nueva
+            if page is None:
+                page = browser_context.new_page()
+                page.goto(url_login_sri)
+
+            # Llevar la pestaña del SRI al frente
+            page.bring_to_front()
+
+            print("-> Conexión con Chrome establecida correctamente.")
+            print("-> Pestaña actual:", page.url)
+
         except Exception as e:
-            messagebox.showerror("Error", f"No se pudo conectar al navegador: {e}")
+            messagebox.showerror(
+                "Error de conexión",
+                "No se pudo conectar con Google Chrome.\n\n"
+                "Comprueba lo siguiente:\n"
+                "1. Chrome está abierto.\n"
+                "2. Se inició con el puerto 9222.\n"
+                "3. La dirección 127.0.0.1:9222/json/version funciona.\n\n"
+                f"Detalle del error:\n{e}"
+            )
             return
 
-        # 🔄 BUCLE CONTINUO
+    # A partir de aquí continúa tu código original:
+    # Bucle continuo de descarga
+
+
+        # 🔄 BUCLE CONTINUO DE DESCARGA
         while True:
-            # 2. Ventana emergente para confirmar que la tabla ya está lista
             messagebox.showinfo(
                 "Sincronización Lista", 
                 "Realiza tu consulta de fechas en el SRI y cuando las facturas aparezcan en pantalla, haz clic en OK para descargar."
             )
 
-            # 3. Ventana emergente para pedir el nombre (con validación si hace clic en Cancelar)
             nombre_mes = simpledialog.askstring(
                 "Nombre de Respaldo", 
                 "Ingresa el nombre para esta carpeta y su ZIP\n(ej. octubre, noviembre):",
                 initialvalue="Nombre_Carpeta"
             )
             
-            # Si el usuario hace clic en "Cancelar", no rompe el programa, solo vuelve a preguntar
             if nombre_mes is None:
                 continue
 
@@ -79,11 +99,10 @@ def automatizar_descargas():
             if not nombre_mes:
                 nombre_mes = "respaldo_general"
 
-            respaldo_pdf_dir = Path(f"./respaldo_{nombre_mes}")
-            xml_temp_dir = Path("./xml_temp")
-            zip_dest_dir = Path("./facturas_descargadas")
+            respaldo_pdf_dir = Path(script_dir) / f"respaldo_{nombre_mes}"
+            xml_temp_dir = Path(script_dir) / "xml_temp"
+            zip_dest_dir = Path(script_dir) / "facturas_descargadas"
 
-            # Limpieza automática de carpetas temporales para esta nueva iteración
             if respaldo_pdf_dir.exists():
                 for f in respaldo_pdf_dir.iterdir():
                     if f.is_file(): f.unlink()
@@ -97,10 +116,14 @@ def automatizar_descargas():
 
             print(f"-> Analizando filas visibles en pantalla para guardarlas en '{nombre_mes}'...")
             
-            filas = page.locator("table tbody tr:visible").all()
-            print(f"-> Se detectaron {len(filas)} facturas visibles para descargar.")
+            try:
+                page.wait_for_load_state("load", timeout=15000)
+                page.wait_for_selector("table tbody tr", timeout=30000)
+            except Exception:
+                pass
 
-            # 🛡️ VALIDACIÓN: Si no hay facturas en la tabla, avisa y vuelve a empezar el ciclo sin error
+            filas = page.locator("table tbody tr:visible").all()
+
             if len(filas) == 0:
                 messagebox.showwarning(
                     "Sin resultados", 
@@ -144,11 +167,16 @@ def automatizar_descargas():
                     if archivo_xml.is_file():
                         zipf.write(archivo_xml, archivo_xml.name)
             
-            # Abrir carpetas de resultados
-            subprocess.run(["xdg-open", str(zip_dest_dir.absolute())])
-            subprocess.run(["xdg-open", str(respaldo_pdf_dir.absolute())])
+            try:
+                if platform.system() == "Windows":
+                    os.startfile(str(zip_dest_dir.absolute()))
+                    os.startfile(str(respaldo_pdf_dir.absolute()))
+                else:
+                    subprocess.run(["xdg-open", str(zip_dest_dir.absolute())])
+                    subprocess.run(["xdg-open", str(respaldo_pdf_dir.absolute())])
+            except Exception:
+                pass
 
-            # ❓ Preguntar si desea realizar otra descarga
             repetir = messagebox.askyesno(
                 "¡Proceso Completado!", 
                 f"Las facturas de '{nombre_mes}' se descargaron con éxito.\n\n¿Deseas descargar otro periodo o fecha?"
