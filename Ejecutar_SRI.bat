@@ -69,7 +69,7 @@ echo.
 echo [3/3] Iniciando automatizacion...
 echo.
 
-set "EXE=%~dp0dist\Robot_SRI\Robot_SRI.exe"
+set "EXE=%~dp0Robot_SRI.exe"
 
 if not exist "%EXE%" (
     echo ERROR: No se encontro Robot_SRI.exe.
