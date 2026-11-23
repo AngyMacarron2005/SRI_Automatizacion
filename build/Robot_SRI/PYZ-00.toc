@@ -397,8 +397,7 @@
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\glob.py',
    'PYMODULE'),
   ('greenlet',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\greenlet\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\greenlet\\__init__.py',
    'PYMODULE'),
   ('gzip',
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\gzip.py',
@@ -614,416 +613,295 @@
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\platform.py',
    'PYMODULE'),
   ('playwright',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\__init__.py',
-   'PYMODULE'),
-  ('playwright.__main__',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\__main__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\__init__.py',
    'PYMODULE'),
   ('playwright._impl',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\__init__.py',
-   'PYMODULE'),
-  ('playwright._impl.__pyinstaller',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\__pyinstaller\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\__init__.py',
    'PYMODULE'),
   ('playwright._impl._api_classes',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_api_classes.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_api_classes.py',
    'PYMODULE'),
   ('playwright._impl._api_structures',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_api_structures.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_api_structures.py',
    'PYMODULE'),
   ('playwright._impl._assertions',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_assertions.py',
-   'PYMODULE'),
-  ('playwright._impl._async_base',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_async_base.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_assertions.py',
    'PYMODULE'),
   ('playwright._impl._driver',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_driver.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_driver.py',
    'PYMODULE'),
   ('playwright._impl._errors',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_errors.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_errors.py',
    'PYMODULE'),
   ('playwright._impl._form_data',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_form_data.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_form_data.py',
    'PYMODULE'),
   ('playwright._impl._greenlets',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_greenlets.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_greenlets.py',
    'PYMODULE'),
   ('playwright._impl._helper',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_helper.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_helper.py',
    'PYMODULE'),
   ('playwright._impl._impl_to_api_mapping',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_impl_to_api_mapping.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_impl_to_api_mapping.py',
    'PYMODULE'),
   ('playwright._impl._map',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_map.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_map.py',
    'PYMODULE'),
   ('playwright._impl._protocol',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_protocol.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_protocol.py',
    'PYMODULE'),
   ('playwright._impl._protocol_check',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_protocol_check.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_protocol_check.py',
    'PYMODULE'),
   ('playwright._impl._signature',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_signature.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_signature.py',
    'PYMODULE'),
   ('playwright._impl._sync_base',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\_sync_base.py',
    'PYMODULE'),
   ('playwright._impl.artifact',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\artifact.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\artifact.py',
    'PYMODULE'),
   ('playwright._impl.assertions',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\assertions.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\assertions.py',
    'PYMODULE'),
   ('playwright._impl.browser',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\browser.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\browser.py',
    'PYMODULE'),
   ('playwright._impl.browser_context',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\browser_context.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\browser_context.py',
    'PYMODULE'),
   ('playwright._impl.browser_type',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\browser_type.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\browser_type.py',
    'PYMODULE'),
   ('playwright._impl.cdp_session',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\cdp_session.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\cdp_session.py',
    'PYMODULE'),
   ('playwright._impl.channel_owner',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\channel_owner.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\channel_owner.py',
    'PYMODULE'),
   ('playwright._impl.client_helper',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\client_helper.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\client_helper.py',
    'PYMODULE'),
   ('playwright._impl.client_instrumentation',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\client_instrumentation.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\client_instrumentation.py',
    'PYMODULE'),
   ('playwright._impl.client_stack_trace',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\client_stack_trace.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\client_stack_trace.py',
    'PYMODULE'),
   ('playwright._impl.clock',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\clock.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\clock.py',
    'PYMODULE'),
   ('playwright._impl.connect',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\connect.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\connect.py',
    'PYMODULE'),
   ('playwright._impl.connection',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\connection.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\connection.py',
    'PYMODULE'),
   ('playwright._impl.console_message',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\console_message.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\console_message.py',
    'PYMODULE'),
   ('playwright._impl.credentials',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\credentials.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\credentials.py',
    'PYMODULE'),
   ('playwright._impl.debugger',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\debugger.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\debugger.py',
    'PYMODULE'),
   ('playwright._impl.dialog',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\dialog.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\dialog.py',
    'PYMODULE'),
   ('playwright._impl.disposable',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\disposable.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\disposable.py',
    'PYMODULE'),
   ('playwright._impl.download',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\download.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\download.py',
    'PYMODULE'),
   ('playwright._impl.element_handle',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\element_handle.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\element_handle.py',
    'PYMODULE'),
   ('playwright._impl.errors',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\errors.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\errors.py',
    'PYMODULE'),
   ('playwright._impl.event_context_manager',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\event_context_manager.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\event_context_manager.py',
    'PYMODULE'),
   ('playwright._impl.event_emitter',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\event_emitter.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\event_emitter.py',
    'PYMODULE'),
   ('playwright._impl.events',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\events.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\events.py',
    'PYMODULE'),
   ('playwright._impl.fetch',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\fetch.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\fetch.py',
    'PYMODULE'),
   ('playwright._impl.file_chooser',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\file_chooser.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\file_chooser.py',
    'PYMODULE'),
   ('playwright._impl.file_utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\file_utils.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\file_utils.py',
    'PYMODULE'),
   ('playwright._impl.frame',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\frame.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\frame.py',
    'PYMODULE'),
   ('playwright._impl.har_router',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\har_router.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\har_router.py',
    'PYMODULE'),
   ('playwright._impl.input',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\input.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\input.py',
    'PYMODULE'),
   ('playwright._impl.internal_structures',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\internal_structures.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\internal_structures.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\__init__.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.headers',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\headers.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\headers.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.locator_utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\locator_utils.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\locator_utils.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.manual_promise',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\manual_promise.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\manual_promise.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.mime_type',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\mime_type.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\mime_type.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.string_utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\string_utils.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\string_utils.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.time',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\time.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\time.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.trace_utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\trace_utils.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\trace_utils.py',
    'PYMODULE'),
   ('playwright._impl.isomorphic.url_match',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\url_match.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\isomorphic\\url_match.py',
    'PYMODULE'),
   ('playwright._impl.js_handle',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\js_handle.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\js_handle.py',
    'PYMODULE'),
   ('playwright._impl.json_pipe',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\json_pipe.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\json_pipe.py',
    'PYMODULE'),
   ('playwright._impl.local_utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\local_utils.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\local_utils.py',
    'PYMODULE'),
   ('playwright._impl.locator',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\locator.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\locator.py',
    'PYMODULE'),
   ('playwright._impl.network',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\network.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\network.py',
    'PYMODULE'),
   ('playwright._impl.out_of_process',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\out_of_process.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\out_of_process.py',
    'PYMODULE'),
   ('playwright._impl.page',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\page.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\page.py',
    'PYMODULE'),
   ('playwright._impl.playwright',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\playwright.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\playwright.py',
    'PYMODULE'),
   ('playwright._impl.protocol',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol\\__init__.py',
    'PYMODULE'),
   ('playwright._impl.protocol.serializers',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol\\serializers.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol\\serializers.py',
    'PYMODULE'),
   ('playwright._impl.protocol.validator',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol\\validator.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol\\validator.py',
    'PYMODULE'),
   ('playwright._impl.protocol.validator_primitives',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol\\validator_primitives.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol\\validator_primitives.py',
    'PYMODULE'),
   ('playwright._impl.protocol_channels',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol_channels.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol_channels.py',
    'PYMODULE'),
   ('playwright._impl.protocol_types',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\protocol_types.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\protocol_types.py',
    'PYMODULE'),
   ('playwright._impl.screencast',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\screencast.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\screencast.py',
    'PYMODULE'),
   ('playwright._impl.selectors',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\selectors.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\selectors.py',
    'PYMODULE'),
   ('playwright._impl.stream',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\stream.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\stream.py',
    'PYMODULE'),
   ('playwright._impl.timeout_settings',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\timeout_settings.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\timeout_settings.py',
    'PYMODULE'),
   ('playwright._impl.tracing',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\tracing.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\tracing.py',
    'PYMODULE'),
   ('playwright._impl.transport',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\transport.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\transport.py',
    'PYMODULE'),
   ('playwright._impl.types',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\types.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\types.py',
    'PYMODULE'),
   ('playwright._impl.utils',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\__init__.py',
    'PYMODULE'),
   ('playwright._impl.utils.crypto',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\crypto.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\crypto.py',
    'PYMODULE'),
   ('playwright._impl.utils.debug',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\debug.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\debug.py',
    'PYMODULE'),
   ('playwright._impl.utils.debug_logger',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\debug_logger.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\debug_logger.py',
    'PYMODULE'),
   ('playwright._impl.utils.map',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\map.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\map.py',
    'PYMODULE'),
   ('playwright._impl.utils.stack_trace',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\stack_trace.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\stack_trace.py',
    'PYMODULE'),
   ('playwright._impl.utils.tasks',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\tasks.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\tasks.py',
    'PYMODULE'),
   ('playwright._impl.utils.whatwg_url',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\whatwg_url.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\whatwg_url.py',
    'PYMODULE'),
   ('playwright._impl.utils.zones',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\utils\\zones.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\utils\\zones.py',
    'PYMODULE'),
   ('playwright._impl.video',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\video.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\video.py',
    'PYMODULE'),
   ('playwright._impl.waiter',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\waiter.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\waiter.py',
    'PYMODULE'),
   ('playwright._impl.web_error',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\web_error.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\web_error.py',
    'PYMODULE'),
   ('playwright._impl.web_mcp',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\web_mcp.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\web_mcp.py',
    'PYMODULE'),
   ('playwright._impl.web_storage',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\web_storage.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\web_storage.py',
    'PYMODULE'),
   ('playwright._impl.worker',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\worker.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\worker.py',
    'PYMODULE'),
   ('playwright._impl.writable_stream',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_impl\\writable_stream.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_impl\\writable_stream.py',
    'PYMODULE'),
   ('playwright._repo_version',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\_repo_version.py',
-   'PYMODULE'),
-  ('playwright.async_api',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\async_api\\__init__.py',
-   'PYMODULE'),
-  ('playwright.async_api._context_manager',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\async_api\\_context_manager.py',
-   'PYMODULE'),
-  ('playwright.async_api._generated',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\async_api\\_generated.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\_repo_version.py',
    'PYMODULE'),
   ('playwright.sync_api',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\sync_api\\__init__.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\sync_api\\__init__.py',
    'PYMODULE'),
   ('playwright.sync_api._context_manager',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\sync_api\\_context_manager.py',
    'PYMODULE'),
   ('playwright.sync_api._generated',
-   'D:\\Angy\\UPS\\7. Septimo '
-   'Ciclo\\Prácticas_Profesionales\\Programa_Automatización\\venv\\Lib\\site-packages\\playwright\\sync_api\\_generated.py',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\playwright\\sync_api\\_generated.py',
    'PYMODULE'),
   ('pprint',
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pprint.py',
@@ -1144,6 +1022,9 @@
    'PYMODULE'),
   ('typing',
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\typing_extensions.py',
    'PYMODULE'),
   ('urllib',
    'C:\\Users\\usuario\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\__init__.py',
